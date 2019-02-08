@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Spring Boot Thymeleaf Hello World Example</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <link rel="stylesheet" type="text/css"
+          href="webjars/bootstrap/3.3.7/css/bootstrap.min.css" />
+
+    <link rel="stylesheet" th:href="@{/css/main.css}"
+          href="../../css/main.css" />
+
+</head>
+
+<body>
+<h2>Salll jupane</h2>
+<!--<p>-->
+    <!--We have a total of <span th:text="${user.length}" th:object="${user}"></span>-->
+    <!--continents in this world. Following is a list showing their order-->
+    <!--based on the number of population in each of them.-->
+<!--</p>-->
+<!--<div class="row">-->
+    <!--<ol>-->
+        <!--<li th:text="${users[1]}">-->
+        <!--</li>-->
+    <!--</ol>-->
+    <!--<div class="col-md-6">-->
+        <!--<table class="table">-->
+            <!--<thead>-->
+            <!--<tr>-->
+                <!--<th>Amount</th>-->
+                <!--<th>Product</th>-->
+                <!--<th>Region</th>-->
+                <!--<th>Buy</th>-->
+            <!--</tr>-->
+            <!--</thead>-->
+            <!--<tbody>-->
+            <!--<tr th:if="${warehouse.empty}">-->
+                <!--<td colspan="2"> No Books Available </td>-->
+            <!--</tr>-->
+            <!--<tr th:each="auxwarehouse : ${warehouse}" th:object="${warehouse}">-->
+                <!--<td><span th:text="${auxwarehouse.amount}"> Title </span></td>-->
+                <!--<td><span th:text="${auxwarehouse.product}"> Author </span></td>-->
+                <!--<td><span th:text="${auxwarehouse.region}"> Region </span></td>-->
+                <!--<td><a th:href="@{/edit/{id}(id=${auxwarehouse.id})}" class="btn btn-primary"><i class="fas fa-user-edit ml-2"></i></a></td>-->
+            <!--</tr>-->
+            <!--</tbody>-->
+        <!--</table>-->
+    <!--</div>-->
+<!--</div>-->
+
+</body>
+<html>
+
